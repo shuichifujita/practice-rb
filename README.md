@@ -1,7 +1,3 @@
-<style>
-p { font-size: 10px; }
-</style>
-
 # Practice Ruby
 
 試しにRuby触るよ、暇だし、時間はないけど。
