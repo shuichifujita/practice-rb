@@ -3,12 +3,12 @@
 # ******** ******** 11.1 ******** ******** #
 puts " **** block **** "
 
-file = File.open("files_sample/yamanashi_02.txt")
-file.each_line do | line |
-  puts line
+file_path = "files_sample/yamanashi_02.txt"
+File.open(file_path) do | file |
+  file.each_line do | line |
+    puts line
+  end
 end
-
-file.close
 
 # ******** ******** ******** ******** #
 # *$$$$$$* *$****$* *$$$$*** ******** #
