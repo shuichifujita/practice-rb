@@ -25,6 +25,7 @@ ARGV.each do | file |
     ltotal += l
     wtotal += w
     ctotal += c
+    raise NameError, "エラーだよ\n"
   rescue => ex
     printf ex.message, "\n"
   end
