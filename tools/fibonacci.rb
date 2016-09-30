@@ -17,9 +17,9 @@ class Num
   def to_fibonacci
     @rng.times do |i|
       if @num.length == 0
-        @num.push(i += 1)
+        @num.push(1)
       elsif @num.length == 1
-        @num.push(@num[0] * 2)
+        @num.push(@num[0])
       else
         @num.push((@num[i - 1]) + (@num[i - 2]))
       end
